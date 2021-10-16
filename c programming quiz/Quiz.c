@@ -1083,3 +1083,20 @@ fclose(filePointer);
 }
 return 0;
 }
+ What is the output of the following program?
+
+#include<stdio.h>
+
+main()
+{ 
+   int a[] = {2,1};
+   
+   printf("%d", *a); 
+}
+A - 0
+
+B - 1
+
+C - 2
+
+D - Compile error.
